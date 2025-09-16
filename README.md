@@ -172,6 +172,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [JVM](https://github.com/sangkeon/java-opa-wasm) - Java SDK for calling Wasm-compiled policies. Uses wasmtime.
 - [Rust](https://github.com/matrix-org/rust-opa-wasm) - A crate to use OPA policies compiled to Wasm.
 - [regorus](https://github.com/microsoft/regorus/tree/main/bindings/wasm) - Evaluate Rego policies in WASM using Regorus. Try it out at [Regorus Playground](https://anakrish.github.io/regorus-playground/).
+- [opa-wasmtime](https://github.com/nickdeis/python-opa-wasmtime) - An OPA WebAssembly SDK for Python based on wasmtime (for Python versions greater than 3.9)
 
 ### WebAssembly Blogs and Articles
 
