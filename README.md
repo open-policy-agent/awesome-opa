@@ -22,7 +22,8 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
   - [Docker](#docker)
   - [CPP](#cpp)
   - [Rust](#rust)
-  - [Typescript]("#typescript")
+  - [Swift](#swift)
+  - [Typescript](#typescript)
 - [WebAssembly (Wasm)](#webassembly-wasm)
   - [Blogs and Articles](#webassembly-blogs-and-articles)
 - [Kubernetes](#kubernetes)
@@ -61,11 +62,10 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 ### Docs
 
 - [OPA](https://www.openpolicyagent.org/docs/) - Official OPA documentation
-- [Styra Academy](https://academy.styra.com/) - Excellent OPA training courses
 - [Gatekeeper](https://open-policy-agent.github.io/gatekeeper/website/docs/) - OPA Gatekeeper docs
 - [Conftest](https://www.conftest.dev/) - Conftest documentation
-- [Rego Style Guide](https://github.com/StyraInc/rego-style-guide) - Style guide for Rego, providing pointers on best practices for policy authoring
-- [Regal Docs](https://docs.styra.com/regal) - Documentation for 60+ linter rules, providing an excellent reference for learning Rego
+- [Rego Style Guide](https://github.com/StyraOSS/rego-style-guide) - Style guide for Rego, providing pointers on best practices for policy authoring
+- [Regal Docs](https://www.openpolicyagent.org/projects/regal) - Documentation for 60+ linter rules, providing an excellent reference for learning Rego
 
 ### Blogs and Articles
 
@@ -87,7 +87,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 
 ### Java
 
-- [Styra Java SDK](https://github.com/StyraInc/opa-java) - Java SDK for interacting with OPA ([documentation](https://docs.styra.com/sdk))
+- [Java SDK](https://github.com/open-policy-agent/opa-java) - Java SDK for interacting with OPA ([documentation](https://open-policy-agent.github.io/opa-java/))
 - [Jarl](https://github.com/johanfylling/jarl) - Native evaluation of Rego in the JVM, via OPA's IR format ([blog](https://blog.openpolicyagent.org/i-have-a-plan-exploring-the-opa-intermediate-representation-ir-format-7319cd94b37d))
 - [OPA Java Client](https://github.com/Bisnode/opa-java-client) - Generic Java client to query OPA's REST API
 - [Spring Security](https://github.com/Bisnode/opa-spring-security) - OPA Spring Security Library
@@ -119,14 +119,13 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 
 ### .NET
 
-- [Styra C# SDK](https://github.com/StyraInc/opa-csharp) - C# SDK for interacting with OPA ([documentation](https://docs.styra.com/sdk))
+- [C# SDK](https://github.com/open-policy-agent/opa-csharp) - C# SDK for interacting with OPA ([documentation](https://open-policy-agent.github.io/opa-csharp/))
 - [ASP.NET Core](https://github.com/build-security/OPA-AspDotNetCore-Middleware) - ASP.NET Core authorization middleware
 - [OpaDotNet.Extensions.AspNetCore](https://github.com/me-viper/OpaDotNet.Extensions) - ASP.NET Core authorization infrastructure
 - [regorus](https://github.com/microsoft/regorus/tree/main/bindings/csharp) - C# bindings to Regorus, a fast, lightweight Rego interpreter written in Rust.
 
 ### Node.js
 
-- [OPA Express](https://github.com/build-security/opa-express-middleware) - OPA client for the Express framework
 - [regorus](https://github.com/microsoft/regorus/tree/main/bindings/wasm) - Evaluate Rego policies in WASM using Regorus. Try it out at [Regorus Playground](https://anakrish.github.io/regorus-playground/).
 
 ### Clojure
@@ -154,12 +153,12 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [regorus](https://crates.io/crates/regorus) - A fast, lightweight Rego interpreter written in Rust. In addition to bringing the power of Rego to Rust-only environments, it is intended as a platform for developing Rego tools and exploring Rego language enhancements.
 - [regorust](https://crates.io/crates/regorust) - Rust crate wrapping the C FFI for rego-cpp, allowing in-process Rego policy evaluation using idiomatic Rust.
 
+### Swift
+- [swift-opa](https://github.com/open-policy-agent/swift-opa) - Swift package for evaluating OPA IR Plans compiled from Rego policies
+
 ### Typescript
 
-- [Styra OPA Typescript SDK](https://github.com/StyraInc/opa-typescript) - Typescript SDK for interacting with OPA ([documentation](https://docs.styra.com/sdk))
-
-### Swift
-- [swift-opa](https://github.com/open-policy-agent/swift-opa) - Swift package for evaluating OPA IR Plans compiled from Rego declarative policy 
+- [OPA Typescript SDK](https://github.com/open-policy-agent/opa-typescript) - Typescript SDK for interacting with OPA ([documentation](https://open-policy-agent.github.io/opa-typescript/))
 
 ## WebAssembly (Wasm)
 
@@ -256,7 +255,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 
 - [VS Code plugin](https://marketplace.visualstudio.com/items?itemName=tsandall.opa) - Develop, test, debug, and analyze policies for OPA in VS Code
 - [IntelliJ plugin](https://github.com/open-policy-agent/opa-idea-plugin) - OPA plugin for the IntelliJ IDE
-- [Zed Extension](https://github.com/StyraInc/zed-rego) - Zed extension for OPA and Rego leveraging [Regal](https://docs.styra.com/regal)
+- [Zed Extension](https://github.com/StyraInc/zed-rego) - Zed extension for OPA and Rego leveraging [Regal](https://www.openpolicyagent.org/projects/regal)
 - [Emacs](https://github.com/psibi/rego-mode) - Emacs Major mode for working with Rego
 - [Vim](https://github.com/tsandall/vim-rego) - Vim plugin for the Rego language, with support for syntax highlighting
 - [Null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) - Use Neovim as a language server to inject LSP diagnostics, code actions, and more. Supports linting rego files.
@@ -314,7 +313,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 
 ## Tools and Utilities
 
-- [Regal](https://github.com/StyraInc/regal) - Regal is a linter for Rego, with the goal of making your Rego magnificent! ([blog](https://www.styra.com/blog/guarding-the-guardrails-introducing-regal-the-rego-linter/))
+- [Regal](https://github.com/open-policy-agent/regal) - Regal is a linter for Rego, with the goal of making your Rego magnificent! ([blog](https://www.styra.com/blog/guarding-the-guardrails-introducing-regal-the-rego-linter/))
 - [setup-opa](https://github.com/open-policy-agent/setup-opa) - GitHub action to configure the Open Policy Agent CLI in your GitHub Actions workflows
 - [Fregot](https://github.com/fugue/fregot) - Alternative REPL implementation for Rego
 - [OPA pre-commit](https://github.com/anderseknert/pre-commit-opa) - Pre-commit hooks for OPA/Rego/Conftest development
@@ -322,7 +321,6 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [OpenAPI to Rego](https://github.com/ashutosh-narkar/openapi-to-rego) - Generate Rego code given an OpenAPI 3.0 Specification
 - [Temporal reasoning with OPA](https://github.com/mhausenblas/temporal-opa) - Examples for working with time in Rego
 - [OPAL](https://github.com/authorizon/opal) - Realtime policy and data updates for your OPA agents on top of websockets pub/sub
-- [OPA Action](https://github.com/koozz/opa-action) - OPA Pull-Request Assessor is a GitHub Action that checks files against policies configured in the same repo
 - [OPA Schema Examples](https://github.com/aavarghese/opa-schema-examples) - Examples of extending the OPA type checker with JSON [schemas](https://www.openpolicyagent.org/docs/latest/schemas/)
 - [Open Policy Containers](https://github.com/opcr-io/policy) - Secure software supply chains for OPA policies. Push, pull, tag, test, version, and sign OPA policies.
 - [Snyk IaC Rules](https://github.com/snyk/snyk-iac-rules) - Maintain library of Rego rules, run integration tests and build WASM bundles for distribution of rules. The OPA libraries are used to build WASM bundles.
@@ -352,7 +350,6 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 
 ## Support and Community
 
-- [Styra](https://www.styra.com/) - Commercial support, and tools for managing OPA at scale, by the creators of OPA
 - [Stack Overflow](https://stackoverflow.com/questions/tagged/open-policy-agent) - Stack Overflow OPA section
 - [OPA Slack](https://openpolicyagent.slack.com) - Open Policy Agent Slack workspace
 - [GitHub Discussions](https://github.com/open-policy-agent/feedback/discussions) - Open Policy Agent Discussion Board
@@ -369,14 +366,14 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 
 ### Maintainers
 
-- [@open-policy-agent](https://github.com/open-policy-agent) - Official OPA account 🌎 ([Twitter](https://twitter.com/OpenPolicyAgent))
+- [@open-policy-agent](https://github.com/open-policy-agent) - Official OPA account 🌎 ([Mastodon](https://infosec.exchange/@openpolicyagent), [Bluesky](https://bsky.app/profile/openpolicyagent.bsky.social), [Twitter](https://twitter.com/OpenPolicyAgent))
 - [@tsandall](https://github.com/tsandall) - Torin Sandall 🇨🇦 - OPA co-creator ([Twitter](https://twitter.com/sometorin))
 - [@timothyhinrichs](https://github.com/timothyhinrichs) - Tim Hinrichs 🇺🇸 - OPA co-creator ([Twitter](https://twitter.com/tlhinrichs))
 - [@ashutosh-narkar](https://github.com/ashutosh-narkar) - Ash Narkar 🇺🇸 - OPA maintainer ([Twitter](https://twitter.com/ashtalk))
-- [@johanfylling](https://github.com/johanfylling/) - Johan Fylling 🇸🇪 - OPA maintainer ([Mastodon](https://hachyderm.io/@johanfylling), [Twitter](https://twitter.com/johanfylling))
+- [@johanfylling](https://github.com/johanfylling/) - Johan Fylling 🇸🇪 - OPA maintainer ([Mastodon](https://hachyderm.io/@johanfylling))
 - [@philipaconrad](https://github.com/philipaconrad) - Philip Conrad 🇺🇸 - OPA maintainer ([Twitter](https://twitter.com/philip_conrad))
-- [@anderseknert](https://github.com/anderseknert) - Anders Eknert 🇸🇪 - OPA developer advocate ([Mastodon](https://hachyderm.io/@anderseknert), [Twitter](https://twitter.com/anderseknert))
-- [@charlieegan3](https://github.com/charlieegan3) - Charlie Egan 🇬🇧 - OPA developer advocate ([Mastodon](https://hachyderm.io/@charlieegan3), [Twitter](https://twitter.com/charlieegan3))
+- [@anderseknert](https://github.com/anderseknert) - Anders Eknert 🇸🇪 - OPA developer advocate ([Mastodon](https://swecyb.com/@anderseknert))
+- [@charlieegan3](https://github.com/charlieegan3) - Charlie Egan 🇬🇧 - OPA developer advocate ([Mastodon](https://hachyderm.io/@charlieegan3))
 - [@ritazh](https://github.com/ritazh) - Rita Zhang 🇺🇸 - Gatekeeper maintainer ([Mastodon](https://hachyderm.io/@ritazh), [Twitter](https://twitter.com/ritazzhang))
 - [@sozercan](https://github.com/sozercan) - Sertaç Özercan 🇺🇸 - Gatekeeper maintainer ([Mastodon](https://hachyderm.io/@sozercan@mastodon.social), [Twitter](https://twitter.com/sozercan))
 - [@jpreese](https://github.com/jpreese) - John Reese 🇺🇸 - Conftest maintainer ([Mastodon](https://hachyderm.io/@jpreese), [Twitter](https://twitter.com/johnpreese))
@@ -387,11 +384,11 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [@m-mizutani](https://github.com/m-mizutani) - Masayoshi Mizutani 🇯🇵 - Security engineer. Prolific OPA & Rego advocate ([Twitter](https://twitter.com/m_mizutani))
 - [@RoyOsaki](https://github.com/RoyOsaki) - Roy Hiroyuki OSAKI 🇺🇸 - Research engineer. OPA community contributor ([Twitter](https://twitter.com/Hiroyuki_OSAKI))
 - [@developer-guy](https://github.com/developer-guy) - Batuhan Apaydin 🇹🇷 - OPA and many CNCF projects ([Mastodon](https://hachyderm.io/@developerguy), [Twitter](https://twitter.com/developerguyba))
-- [@nmeisenzahl](https://github.com/nmeisenzahl) - Nico Meisenzahl 🇩🇪 - All about OPA and cloud native topics ([Mastodon](https://fosstodon.org/@nmeisenzahl), [Twitter](https://twitter.com/nmeisenzahl))
-- [@jaspervdj](https://github.com/jaspervdj) - Jasper Van der Jeugt 🇨🇭 - OPA contributor ([Mastodon](https://functional.cafe/@jaspervdj), [Twitter](https://github.com/jaspervdj-luminal))
-- [@willbeason](https://github.com/willbeason) - Will Beason 🇺🇸 - Ex Gatekeeper maintainer ([Mastodon](https://functional.cafe/@willbeason@dair-community.social), [Twitter](https://twitter.com/willbeason))
+- [@nmeisenzahl](https://github.com/nmeisenzahl) - Nico Meisenzahl 🇩🇪 - All about OPA and cloud native topics ([Twitter](https://twitter.com/nmeisenzahl))
+- [@jaspervdj](https://github.com/jaspervdj) - Jasper Van der Jeugt 🇨🇭 - OPA contributor ([Mastodon](https://functional.cafe/@jaspervdj))
+- [@willbeason](https://github.com/willbeason) - Will Beason 🇺🇸 - Ex Gatekeeper maintainer ([Mastodon](https://dair-community.social/@willbeason))
 - [@peteroneilljr](https://github.com/peteroneilljr) - Peter O'Neill 🌎 - Ex OPA community advocate ([Mastodon](https://hachyderm.io/@Peteroneilljr), [Twitter](https://twitter.com/peteroneilljr))
-- [@antonioberben](https://github.com/antonioberben) - Antonio Berben 🇪🇸 - OPA Contributor & Blogger ([Twitter](https://twitter.com/antonioberben))
+- [@antonioberben](https://github.com/antonioberben) - Antonio Berben 🇪🇸 - OPA Contributor & Blogger
 
 ### Meetup Groups
 
@@ -401,8 +398,6 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 
 ## Commercial Tools
 
-- [Styra DAS](https://www.styra.com/styra-das) - Styra Declarative Authorization Service, from the creators of OPA
-- [Enterprise OPA](https://www.styra.com/enterprise-opa) - Enterprise-grade authorization engine for data-heavy workloads
 - [Scalr](https://scalr.com/) - Collaboration and Automation for Terraform, backed by OPA
 - [Fairwinds Insights](https://fairwinds.com/insights) - Run OPA policies consistently across CI/CD, Admission Control, and an multi-cluster scanner
 - [Snyk IaC](https://snyk.io/product/infrastructure-as-code-security/) - Test Infrastructure as Code source code repositories for security misconfigurations and best practices. The OPA golang libraries are used to evaluate Rego policies to detect misconfigurations in the repositories.
@@ -416,5 +411,5 @@ Please just make sure to include something that describes how the project uses O
 
 ## Community
 
-For questions, discussions and announcements related to Styra products, services and open source projects, please join
-the Styra community on [Slack](https://inviter.co/styra)!
+For questions, discussions and announcements related to our open source projects, please join
+the Slack community!
