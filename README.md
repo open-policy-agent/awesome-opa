@@ -267,6 +267,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [Prism](https://prismjs.com/) - Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind (supports Rego)
 - [tree-sitter-rego](https://github.com/FallenAngel97/tree-sitter-rego) - Tree-sitter grammar for Rego ([blog](https://decodeapps.pp.ua/blog/post/rego-treesitter))
 - [highlight.js](https://github.com/StyraInc/highlightjs-rego) - Rego syntax support for [highlight.js](https://highlightjs.org/)
+- [codemirror-lang-rego](https://github.com/HZMonama/codemirror-lang-rego) - A CodeMirror 6 language extension for Rego with batteries
 
 ## Infrastructure as Code
 
@@ -332,6 +333,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [opa-explorer](https://github.com/srenatus/opa-explorer) - Visual tool for exploring the different compilation stages of the OPA topdown compiler
 - [mcov](https://github.com/styrainc/mcov) - A tool that'll check your Rego source files and report the minimum compatible OPA version required
 - [dependency-management-data (DMD)](https://dmd.tanna.dev) is a set of tooling to get a better understanding of the use of dependencies across your organisation. DMD supports using Open Policy Agent to write more complex rules around dependency usage than can be done using the SQL interface.
+- [RegoLab](https://github.com/HZMonama/regolab) - RegoLab is a web-based playground for writing and testing Open Policy Agent Rego policies with real-time evaluation and data simulation.
 
 ## Other Usecases
 
