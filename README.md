@@ -267,7 +267,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [Prism](https://prismjs.com/) - Prism is a lightweight, extensible syntax highlighter, built with modern web standards in mind (supports Rego)
 - [tree-sitter-rego](https://github.com/FallenAngel97/tree-sitter-rego) - Tree-sitter grammar for Rego ([blog](https://decodeapps.pp.ua/blog/post/rego-treesitter))
 - [highlight.js](https://github.com/StyraInc/highlightjs-rego) - Rego syntax support for [highlight.js](https://highlightjs.org/)
-- [codemirror-lang-rego](https://github.com/HZMonama/codemirror-lang-rego) - A CodeMirror 6 language extension for Rego with batteries
+- [codemirror-lang-rego](https://github.com/HZMonama/codemirror-lang-rego) - A CodeMirror 6 language extension for Rego with syntax highlighting, autocomplete for OPA built-ins, and context-aware completions for input/data paths based on JSON schemas.
 
 ## Infrastructure as Code
 
