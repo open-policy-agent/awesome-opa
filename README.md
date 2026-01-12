@@ -330,6 +330,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [Rönd](https://github.com/rond-authz/rond) - Rönd is a lightweight container that distributes security policy enforcement throughout your application
 - [rq (Rego Query)](https://git.sr.ht/~charles/rq) - jq-inspired tool to bring Rego to your shell pipelines
 - [opa-explorer](https://github.com/srenatus/opa-explorer) - Visual tool for exploring the different compilation stages of the OPA topdown compiler
+- [rego-skill](https://github.com/Void3110/rego-skill) - Claude Code skill for AI-assisted Rego policy development with mandatory test workflow, security review checklist, and 114 tests covering RBAC, API Gateway, and ABAC patterns
 - [mcov](https://github.com/styrainc/mcov) - A tool that'll check your Rego source files and report the minimum compatible OPA version required
 - [dependency-management-data (DMD)](https://dmd.tanna.dev) is a set of tooling to get a better understanding of the use of dependencies across your organisation. DMD supports using Open Policy Agent to write more complex rules around dependency usage than can be done using the SQL interface.
 
