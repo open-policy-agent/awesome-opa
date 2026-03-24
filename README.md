@@ -335,6 +335,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [mcov](https://github.com/styrainc/mcov) - A tool that'll check your Rego source files and report the minimum compatible OPA version required
 - [dependency-management-data (DMD)](https://dmd.tanna.dev) is a set of tooling to get a better understanding of the use of dependencies across your organisation. DMD supports using Open Policy Agent to write more complex rules around dependency usage than can be done using the SQL interface.
 - [RegoLab](https://github.com/HZMonama/regolab) - RegoLab is a web-based playground for writing and testing Open Policy Agent Rego policies with real-time evaluation and data simulation.
+- [Pegasus](https://github.com/Guipetris/pegasus) - AI compliance framework using 96 Rego policies via regorus (Rust-native OPA evaluator) to validate AI systems against ISO 42001, EU AI Act, NIST AI RMF, OWASP, and more.
 
 ## Other Usecases
 
