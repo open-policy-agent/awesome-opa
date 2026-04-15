@@ -335,6 +335,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [mcov](https://github.com/styrainc/mcov) - A tool that'll check your Rego source files and report the minimum compatible OPA version required
 - [dependency-management-data (DMD)](https://dmd.tanna.dev) is a set of tooling to get a better understanding of the use of dependencies across your organisation. DMD supports using Open Policy Agent to write more complex rules around dependency usage than can be done using the SQL interface.
 - [RegoLab](https://github.com/HZMonama/regolab) - RegoLab is a web-based playground for writing and testing Open Policy Agent Rego policies with real-time evaluation and data simulation.
+- [protect-mcp](https://github.com/ScopeBlind/scopeblind-gateway) - MCP gateway with Cedar/OPA policy evaluation and Ed25519 signed decision receipts. Every tool call produces a Veritas Acta receipt — independently verifiable, offline, forever.
 
 ## Other Usecases
 
