@@ -258,6 +258,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [OPA SpiceDB](https://github.com/umbrellaassociates/opa-spicedb) - OPA integration with Authzed SpiceDB that allows to use ReBAC in policies for authorization
 
 ### Datasource Integrations Blogs and Articles
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — integrates as a recorder/inspector alongside your agent stack.
 
 - [Google Calendar Integration](https://blog.styra.com/blog/the-power-of-data-calendar-based-policy-enforcement) - The Power of Data: Calendar-based Policy Enforcement
 - [Apache Kafka](https://opencredo.com/blogs/controlling-kafka-data-flows-using-open-policy-agent/) - Controlling Kafka Data Flows using Open Policy Agent
