@@ -348,6 +348,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [RegoLab](https://github.com/HZMonama/regolab) - RegoLab is a web-based playground for writing and testing Open Policy Agent Rego policies with real-time evaluation and data simulation.
 - [nopa](https://gitlab.com/sencillodev/nopa) - Nopa is a simple way to store OPA bundles in NATS object storage with real time updates and custom module injection.
 - [Regoround](https://gitlab.com/sencillodev/regoround) - A Rego playground that you can run locally. It allows you to load a custom bundle into the playground. URLs are safe to share, the URL parameters are built from the code itself and so cannot be guessed. A live version with the example bundle in the repo is at https://regoround.fly.dev
+- [Evolith](https://github.com/beyondnetcode/evolith_arch32) - Architecture governance as a PR gate: a CLI, GitHub Action and MCP server that evaluate Rego rules against a repository through OPA Wasm, and report a rule they could not evaluate as a failure rather than a silent pass
 
 ## Other Usecases
 
