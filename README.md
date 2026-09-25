@@ -213,6 +213,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [GKE Policy Automation](https://github.com/google/gke-policy-automation) - Tool and policy library for reviewing GKE clusters against best practices
 - [kube-mgmt](https://github.com/open-policy-agent/kube-mgmt) - Sidecar providing data from Kubernetes to OPA. Includes Helm charts for both projects
 - [KubeStellar Console](https://github.com/kubestellar/console) - Open source AI-powered multi-cluster Kubernetes dashboard with built-in OPA/Gatekeeper policy visualization, real-time compliance monitoring across hybrid edge and cloud environments. CNCF Sandbox project (Apache 2.0)
+- [agent-evidence-admission](https://github.com/probityai/agent-evidence-admission) - Rego v1 policy that admits or refuses a Kubernetes workload on the in-toto agent execution evidence attached to its image, with Kyverno and sigstore policy-controller ports measured against the same Rego oracle over a public conformance corpus
 
 ### Service Mesh Authorization
 
