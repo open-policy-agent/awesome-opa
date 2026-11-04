@@ -420,6 +420,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [Snyk IaC](https://snyk.io/product/infrastructure-as-code-security/) - Test Infrastructure as Code source code repositories for security misconfigurations and best practices. The OPA golang libraries are used to evaluate Rego policies to detect misconfigurations in the repositories.
 - [Spacelift](https://spacelift.io/): Flexible management platform for Infrastructure as Code, backed by OPA
 - [env0](https://www.env0.com): Infrastructure as Code automation platform, with OPA extensibility.
+- [Scanara](https://scanara.io/en/) - EU AI Act scanner for GitHub repositories. OPA evaluates repository documentation against a Rego policy bundle generated from the Regulation text.
 
 ## Contributing
 
