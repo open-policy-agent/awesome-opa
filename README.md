@@ -318,6 +318,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [ocov](https://github.com/C5T/ocov) - Colors `opa test --coverage` reports in the terminal
 - [opa-codecov](https://github.com/SVilgelm/opa-codecov) - Convert OPA test coverage report to a JSON format supported by Codecov
 - [github-action-opa-rego-test](https://github.com/masterpointio/github-action-opa-rego-test) - GitHub Action to automate testing for your OPA Rego policies and generates a report.
+- [MCP Policy Change Review](https://github.com/ExpressPath/mcp-policy-change-review) - Local GitHub Action that runs user-supplied authorization fixtures against configured OPA/Cedar binaries and reports decision changes across policy planes.
 
 ### Testing Blogs and Articles
 
