@@ -85,6 +85,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [agt-policies-nigeria](https://github.com/kingztech2019/agt-policies-nigeria) - Policy-as-Code for African AI agent compliance: NDPA 2023, CBN transaction limits, BVN/NIN data protection, NFIU AML/CFT, and POPIA. Includes 88 OPA tests, CI pipeline, and full compliance mapping.
 - [GOPAL](https://github.com/Principled-Evolution/gopal) - 66 Rego policies encoding AI-governance regulations as executable checks: EU AI Act, NIST AI RMF, FERPA/COPPA, fair lending. Versioned under `v1/` with semver guarantees, allow/deny test per policy, `opa check` + Regal in CI.
 - [Rego Policy Libraries](https://github.com/ynotbhatc/rego_policy_libraries) - 600+ production-ready Rego v1 policies for CIS Benchmarks (incl. EKS/AKS/GKE), DISA STIGs, CISA SCuBA M365, NSA/CISA K8s Hardening, Pod Security Standards, NIST, NERC-CIP, IEC 62443, ISO 27001, SOC 2, PCI-DSS, EU AI Act, FERPA/COPPA, and 55+ frameworks. Vendor-neutral, fail-closed, Apache 2.0, with OCI bundle distribution.
+- [agentic-sdlc-kit](https://github.com/alyriaai/agentic-sdlc-kit) - 8 Rego v1 policies for AI coding agent tool calls (unreviewed fetch blocks git push, secret read blocks egress, MCP server allowlist, credential file protection, writes confined to the worktree), each documenting the input fields it reads and shipping with `opa test` cases
 
 
 ## Language and Platform Integrations
