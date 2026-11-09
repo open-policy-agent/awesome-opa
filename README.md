@@ -177,6 +177,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [Rust](https://github.com/matrix-org/rust-opa-wasm) - A crate to use OPA policies compiled to Wasm.
 - [regorus](https://github.com/microsoft/regorus/tree/main/bindings/wasm) - Evaluate Rego policies in WASM using Regorus. Try it out at [Regorus Playground](https://anakrish.github.io/regorus-playground/).
 - [opa-wasmtime](https://github.com/nickdeis/python-opa-wasmtime) - An OPA WebAssembly SDK for Python based on wasmtime (for Python versions greater than 3.9)
+- [zopa](https://github.com/kanywst/zopa) - A ~75 KB Wasm module (Zig) that evaluates Rego-shaped policies inside Envoy via proxy-wasm, one binary for every policy. Policies are converted from `opa parse` output, and decisions are checked against `opa eval` in a conformance suite.
 
 ### WebAssembly Blogs and Articles
 
