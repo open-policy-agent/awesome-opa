@@ -378,6 +378,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [Gusto Engineering](https://engineering.gusto.com/why-logic-programming-is-the-best-choice-for-authorization-70f95164dee7) — Why logic programming is the best choice for authorization
 - [Fugue (now Snyk)](https://snyk.io/blog/5-tips-for-using-the-rego-language-for-open-policy-agent-opa/) - 5 tips for using the Rego language for Open Policy Agent
 - [Integration](https://medium.com/@nikman/control-user-access-and-permissions-in-cvat-with-open-policy-agent-a2abbd09774d) - Control User Access and Permissions in CVAT with Open Policy Agent
+- [OPA behind AuthZEN for MCP tool calls](https://iamops.dev/opa-authzen-mcp-tool-call-policy/) - A hands-on lab that places OPA behind an AuthZEN endpoint so a Rego policy decides which MCP tool calls an AI agent may make.
 
 ## People
 
