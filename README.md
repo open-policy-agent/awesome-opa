@@ -332,7 +332,7 @@ A curated list of [awesome](https://github.com/sindresorhus/awesome) Open Policy
 - [Monitor OPA Gatekeeper](https://github.com/developer-guy/monitor-opa-gatekeeper) - Monitoring implementation guide for OPA Gatekeeper ([blog](https://sysdig.com/blog/monitor-gatekeeper-prometheus/))
 - [OpenAPI to Rego](https://github.com/ashutosh-narkar/openapi-to-rego) - Generate Rego code given an OpenAPI 3.0 Specification
 - [Temporal reasoning with OPA](https://github.com/mhausenblas/temporal-opa) - Examples for working with time in Rego
-- [OPAL](https://github.com/authorizon/opal) - Realtime policy and data updates for your OPA agents on top of websockets pub/sub
+- [OPAL](https://github.com/permitio/opal) - Realtime policy and data updates for your OPA agents on top of websockets pub/sub
 - [OPA Schema Examples](https://github.com/aavarghese/opa-schema-examples) - Examples of extending the OPA type checker with JSON [schemas](https://www.openpolicyagent.org/docs/latest/schemas/)
 - [Open Policy Containers](https://github.com/opcr-io/policy) - Secure software supply chains for OPA policies. Push, pull, tag, test, version, and sign OPA policies.
 - [Snyk IaC Rules](https://github.com/snyk/snyk-iac-rules) - Maintain library of Rego rules, run integration tests and build WASM bundles for distribution of rules. The OPA libraries are used to build WASM bundles.
